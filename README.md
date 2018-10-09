@@ -7,9 +7,11 @@ In this lesson, we'll talk about best practices for simulating things in the rea
 
 ## Objectives
 
+You will be able to:
+
 * Use inheritance to to write D.R.Y. code 
 * Understand the relationship between subclasses and superclasses
-* Demonstrate an understand of the OO lifecycle , and the relationship between attributes and methods
+* Demonstrate an understand of the OO lifecycle, and the relationship between attributes and methods
 * Create Object-Oriented data models that describe the real world with classes and subclasses
 
 
@@ -60,3 +62,7 @@ The simulation continues for the set number of time steps.  Any time someone die
 If this all seems a bit daunting, don't worry! We'll provide much more detail as we build this step-by-step during the lab. 
 
 Let's move on to the lab and get started!
+
+## Summary
+
+In this lesson, you learned about best practices for simulating things in the real world using Object-Oriented Programming!
