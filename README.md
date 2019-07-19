@@ -23,6 +23,8 @@ As a capstone for everything you've learned about Object-Oriented Programming, y
 <img src='images/herd_immunity.gif'>
 
 
+[gif created by u/theotheredmund](https://www.reddit.com/r/dataisbeautiful/comments/5v72fw/how_herd_immunity_works_oc/)
+
 This simulation is meant to model the effects that vaccinations have on the way a communicable disease spreads through a population. The simulation you're building depends on just a few statistics from the CDC (Center for Disease Control):
 
 * `r0`, the average number of people a contagious person infects before they are no longer contagious (because they got better or they died)
@@ -66,3 +68,8 @@ With that, go ahead and take a look at this cool simulation lab!
 ## Summary
 
 In this lesson, you reviewed some best practices for simulating things in the real world using Object-Oriented Programming!
+
+
+```python
+
+```
