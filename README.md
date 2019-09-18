@@ -30,7 +30,7 @@ This simulation is meant to model the effects that vaccinations have on the way 
 * `r0`, the average number of people a contagious person infects before they are no longer contagious (because they got better or they died)
 * `mortality_rate`, the percentage chance a person infected with a disease will die from it.
 
-The main workflow of simulation is as follows:
+The main workflow of this simulation is as follows:
 
 1. Create a `Person` class with the following attributes:
     * `alive`
@@ -53,8 +53,8 @@ In order for our simulation to work, you'll need to define some rules for it:
 * Each infected person will "interact" with 100 random people from the `population`. If the person the infected individual interacts with is sick, vaccinated, or has had the disease before, nothing happens. However, if the person the infected individual interacts with is healthy, unvaccinated, and has not been infected yet, then that person becomes infected. 
 
 * At the end of each round, the following things happen:
-    * All currently infected people either get better from the disease, or die, with the chance of death corresponding to the mortality rate of the disease. 
-    * All people that were newly infected during this round become the new infected for next round.  
+    * All currently infected people either get better from the disease or die, with the chance of death corresponding to the mortality rate of the disease. 
+    * All people that were newly infected during this round become the new infected for the next round.  
     
 The simulation continues for the set number of time steps.  Any time someone dies or gets infected, log it in a text file called `simulation_logs.txt`.  Once the simulation is over, write some code to quickly parse the text logs into data and quickly visualize the results, so that you can run multiple simulations and answer questions like: 
 
@@ -68,8 +68,3 @@ With that, go ahead and take a look at this cool simulation lab!
 ## Summary
 
 In this lesson, you reviewed some best practices for simulating things in the real world using Object-Oriented Programming!
-
-
-```python
-
-```
