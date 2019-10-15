@@ -9,10 +9,9 @@ In this lesson, you'll learn a bit more about best practices for simulating thin
 
 You will be able to:
 
-* Use inheritance to write D.R.Y. code 
-* Understand the relationship between subclasses and superclasses
-* Demonstrate an understand of the OO lifecycle, and the relationship between attributes and methods
-* Create Object-Oriented data models that describe the real world with classes and subclasses
+* Use inheritance to write nonredundant code
+* Create methods that calculate statistics of the attributes of an object
+* Create Object-Oriented data models that describe the real world with multiple classes and subclasses and interaction between classes
 
 
 ## Creating Stochastic Simulations
